@@ -130,9 +130,9 @@ body {
   right: 0;
 }
 
-/* ..................... Responsive 768px ..................... */
+/* ..................... Responsive 1440px ..................... */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .desktop {
     display: none;
   }
@@ -247,10 +247,27 @@ body {
   }
 }
 
+/* ..................... Responsive 768px ..................... */
+
+@media screen and (max-width: 768px) {
+  /* ........ Greenapple Donut Styles ........ */
+
+  .mobile-greenapple-bg {
+    background: radial-gradient(
+      54.6% 54.6% at 50% 50%,
+      #f8e1fb 0%,
+      #9cdf21 100%
+    );
+    position: absolute;
+    top: 35%;
+    border-radius: 100%;
+    padding: 1rem;
+  }
+}
+
 /* ..................... Responsive 425px ..................... */
 
 @media screen and (max-width: 426px) {
-
   .mobile-donut-name {
     font-size: 4rem;
     top: 10rem;
@@ -293,7 +310,7 @@ body {
   }
 
   .mobile-greenapple-bg {
-    top: 30%;
+    top: 34%;
   }
 
   .mobileGreenapple1 {

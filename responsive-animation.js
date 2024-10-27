@@ -2,8 +2,8 @@
 let mobileDonut1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".mobile-orenge-donut",
-    start: "60% center",
-    end: "bottom center",
+    start: "60% 60%",
+    end: "bottom 60%",
     scrub: true,
     markers: false,
   },
@@ -17,8 +17,8 @@ mobileDonut1.to(".mobile-orenge-donut", {
 let mobileDonut2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".mobile-blueberry-donut",
-    start: "60% center",
-    end: "bottom center",
+    start: "60% 60%",
+    end: "bottom 60%",
     scrub: true,
     markers: false,
   },
@@ -166,5 +166,5 @@ let mobileGreenappleTitle = gsap.timeline({
   },
 });
 mobileGreenappleTitle.to(".mobileGreenappleTitle", {
-  y: -80,
+  y: -10,
 });
