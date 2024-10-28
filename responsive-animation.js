@@ -29,20 +29,18 @@ mobileDonut2.to(".mobile-blueberry-donut", {
   scale: 1,
 });
 
-//   let mobileDonut3 = gsap.timeline({
-//     scrollTrigger: {
-//       trigger: ".mobile-greenapple-donut",
-//       start: "top center",
-//       end: "30% center",
-//       scrub: true,
-//       markers: true,
-//     },
-//   });
-//   mobileDonut3.to(".mobile-greenapple-donut", {
-//     y: -100,
-//     rotation: 200,
-//     scale: 1,
-//   });
+  let mobileDonut3 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".mobile-greenapple-donut",
+      start: "top center",
+      end: "30% center",
+      scrub: true,
+      markers: true,
+    },
+  });
+  mobileDonut3.to(".mobile-greenapple-donut", {
+    y: 50,
+  });
 
 // ............. Background GSAP CODE ..............
 
@@ -125,7 +123,7 @@ let mobileGreenapple1 = gsap.timeline({
   },
 });
 mobileGreenapple1.to(".mobileGreenapple1", {
-  y: -150,
+  y: -100,
 });
 
 // ............. Title GSAP CODE ..............
