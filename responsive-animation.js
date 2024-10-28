@@ -35,7 +35,7 @@ mobileDonut2.to(".mobile-blueberry-donut", {
       start: "top center",
       end: "30% center",
       scrub: true,
-      markers: true,
+      markers: false,
     },
   });
   mobileDonut3.to(".mobile-greenapple-donut", {
